@@ -16,6 +16,7 @@ const todoSlice = createSlice({
                 if (action.payload === item.id) {
                     item.done = !item.done;
                 }
+                return item;
             });
         },
     },
