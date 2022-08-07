@@ -7,18 +7,6 @@ const Input = () => {
     const [input, setInput] = useState("");
     const dispatch = useDispatch();
 
-    // useEffect(() => {
-    //     document.addEventListener(
-    //         "keydown",
-    //         (e) => {
-    //             if (e.key === "Enter") {
-    //                 addToDo();
-    //             }
-    //         },
-    //         false
-    //     );
-    // }, []);
-
     const addToDo = () => {
         dispatch(
             saveTodo({
