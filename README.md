@@ -4,7 +4,7 @@
 
 ### Was deploy to [Heroku](https://www.heroku.com/).
 
-### See site [here](to-do-l1st-redux-react.netlify.app).
+### See site [here](https://to-do-l1st-redux-react.netlify.app/).
 
 ## Available Scripts
 
